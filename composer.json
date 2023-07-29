@@ -1,0 +1,42 @@
+{
+    "name": "netkod-bilisim/tr-tax-number-faker",
+    "description": "You can add simple and flexible, single or multiple settings to your Laravel models.",
+    "keywords": [
+        "laravel",
+        "eloquent",
+        "model",
+        "settings",
+        "preferences",
+        "configuration",
+        "options",
+        "preferences",
+        "options"
+    ],
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Remzi DALYAN",
+            "email": "remzi.dalyan@netkodbilisim.com",
+            "role": "Software Engineer"
+        }
+    ],
+    "require": {
+        "php": ">=7.4",
+        "ext-json": "*",
+        "illuminate/database": "^5.5",
+        "illuminate/support": "^5.5"
+    },
+    "autoload": {
+        "psr-4": {
+            "NetkodBilisim\\LaravelModelSettingsBag\\": "./src/"
+        }
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true,
+    "config": {
+        "allow-plugins": {
+            "kylekatarnls/update-helper": true
+        }
+    }
+}
