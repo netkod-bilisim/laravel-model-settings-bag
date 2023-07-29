@@ -1,0 +1,5 @@
+preset: laravel
+risky: false
+tab-width: 4
+disabled:
+  - elseif
